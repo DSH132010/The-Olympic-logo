@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: var(--White);
+	font-family: 'Texturina', serif;
+	scroll-behavior: smooth;
+}
+
+:root {
+	--White: #fff;
+	--Background-White: rgba(255, 255, 255, 0);
+	--Orange: #f44336;
+	--Teal: rgb(0, 128, 128);
+	--Black: #000;
+}
+
+.the-title-of-hero {
+	font-size: 4rem;
+	font-weight: 500;
+	font-style: normal;
+	padding: 200px 100px 50px;
+}
+
+.the-subtitle-of-hero {
+	font-size: 1rem;
+	font-weight: 500;
+	font-style: normal;
+	text-align: left;
+	width: 800px;
+	padding: 0px 100px;
+}
+
+.buttons {
+	text-align: center;
+	margin: 90px;
+}
+
+.hero {
+	height: 100vh;
+	width: 100%;
+	background: url(dreamstime_l_48265905.jpg);
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.title-of-main {
+	font-size: 4rem;
+	margin: 150px auto 100px;
+	font-weight: 500;
+	font-style: normal;
+	color: var(--Teal);
+}
+
+.main {
+	background-image: url(Main-Background-Image.jpg);
+	margin-bottom: 50px;
+	background-size: cover;
+	padding: 50px;
+	text-align: center;
+}
+
+#logo {
+	border-width: 0px;
+	border-style: outset;
+	background-color: var(--Background-White);
+}
+
+.solid {
+	border: 1px solid var(--Orange);
+	background: var(--Orange);
+	display: inline-block;
+	text-decoration: none;
+	color: var(--White);
+	padding: 12px 34px;
+	font-size: 13px;
+	position: relative;
+	cursor: pointer;
+	transition: 1s;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 20px 50px 20px 10px;
+}
+
+.outline {
+	display: inline-block;
+	text-decoration: none;
+	color: var(--White);
+	border: 1px solid var(--White);
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+	transition: 1s;
+	border-radius: 5px;
+	font-size: 16px;
+	margin: 20px 10px 30px;
+}
+
+.outline:hover,
+.outline:focus {
+	transform: scale(1.1);
+	outline: none;
+}
+
+.solid:hover,
+.solid:focus {
+	transform: scale(1.1);
+	outline: none;
+}
+
+.Know-More h1 {
+	color: var(--Black);
+	padding: 100px 20% 50px;
+	width: 40%;
+}
+
+.Know-More p {
+	color: var(--Black);
+	padding: 10px 50px;
+	font-size: 1.2rem;
+	width: 80%;
+}
+
+.Know-More {
+	margin: 100px 0px 200px;
+}
